@@ -13,6 +13,6 @@ class ContentSerializer < ActiveModel::Serializer
         updated_at: object.updated_at,
         created_at: object.created_at
       }
-    }
+    }.deep_transform_keys { |key| key.to_s.camelize(:lower) }
   end
 end

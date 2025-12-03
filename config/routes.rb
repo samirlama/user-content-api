@@ -9,9 +9,9 @@ Rails.application.routes.draw do
       resources :contents, only: %i[index create update destroy]
 
     # login
-      post 'login', to: 'sessions#create'
+      post 'auth/signin', to: 'sessions#create'
     # signup
-      post 'signup', to: 'users#create'
+      post 'users/signup', to: 'users#create'
     end
   end
 end

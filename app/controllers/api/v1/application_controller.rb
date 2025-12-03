@@ -3,6 +3,8 @@ module Api
     class ApplicationController < ActionController::API
       before_action :authorize_request
       before_action :set_current_user
+      before_action :transform_params_to_snake_case
+
       def authorize_request
         header = request.headers['Authorization']
         header = header.split(' ').last if header
@@ -31,6 +33,10 @@ module Api
 
       def user_signed_in?
         !!current_user
+      end
+
+      def transform_params_to_snake_case
+        params.deep_transform_keys!(&:underscore)
       end
     end
   end
