@@ -12,3 +12,4 @@ Things you may want to cover:
 * [Run in Postman](https://www.postman.com/red-water-617895/workspace/sameer/collection/5532488-4dc6f0c1-6e5a-4a63-b7f2-450dd6e2cba3?action=share&creator=5532488)
 
 * **docker compose up** to start docker container
+* Master Key :**60f07f1c192c8b9831d8aa188206b3ef** 
