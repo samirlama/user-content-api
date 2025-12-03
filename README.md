@@ -5,20 +5,10 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - 3.1.6
 
-* System dependencies
+* Rails version - 7.0.10
 
-* Configuration
+* [Run in Postman](https://www.postman.com/red-water-617895/workspace/sameer/collection/5532488-4dc6f0c1-6e5a-4a63-b7f2-450dd6e2cba3?action=share&creator=5532488)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* **docker compose up** to start docker container
